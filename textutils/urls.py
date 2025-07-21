@@ -22,6 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index, name = 'index'),
     path('about',views.about,name = 'about'),
+    path('removepunc', views.removepunc, name = 'rempun'),
+    path('capitalizefirst', views.capfirst, name = 'newlineremove'),
+    path('spaceremove', views.spaceremove, name = 'spaceremove'),
+    path('charcount', views.charcount, name = 'charcount'),
         
     
 ]
